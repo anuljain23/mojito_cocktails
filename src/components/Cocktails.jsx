@@ -22,7 +22,7 @@ const Cocktails = () => {
                 x: -150, y: 150
             })
             .to('#c-right-leaf', {
-                x: islargeScreen ? -100 : -40, y: islargeScreen ? -100 : -40
+                x: islargeScreen ? -75 : -40, y: islargeScreen ? -75 : -40
             })
     }, [])
 

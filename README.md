@@ -1,12 +1,74 @@
-# React + Vite
+# Mojito Cocktails
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite project showcasing mojito cocktail recipes with engaging animations built using GSAP, deployed live at [mojito-cocktails-rosy.vercel.app](https://mojito-cocktails-rosy.vercel.app/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+- [Project Structure](#project-structure)  
+- [Future Improvements](#future-improvements)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+Live site: [mojito-cocktails-rosy.vercel.app](https://mojito-cocktails-rosy.vercel.app/)
+
+---
+
+## Features
+
+- Display of mojito cocktail recipes with ingredients and preparation steps.  
+- Smooth animations and transitions using GSAP.  
+- Responsive design for various screen sizes (desktop, tablet, mobile).  
+- Clean, focused UI.
+
+---
+
+## Tech Stack
+
+- **Framework / Bundler:** React.js + Vite :contentReference[oaicite:0]{index=0}  
+- **Styling:** CSS (or whatever CSS approach you used)  
+- **Animation Library:** GSAP  
+- **Linting:** ESLint configured :contentReference[oaicite:1]{index=1}  
+- **Deployment:** Vercel :contentReference[oaicite:2]{index=2}
+
+---
+
+## Getting Started
+
+Follow these steps to run the project locally:
+
+1. **Prerequisites**  
+   - Node.js (version 14 or later recommended)  
+   - npm or yarn
+
+2. **Clone the repo**  
+   ```bash
+   git clone https://github.com/anuljain23/mojito_cocktails.git
+   cd mojito_cocktails
+
+3. **Install dependencies**  
+   ```bash
+   npm install
+   # or
+   yarn
+
+4. **Start the development server**  
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+
+5. **Build for production**
+   ```bash
+   npm run build
+   # or
+   yarn build
